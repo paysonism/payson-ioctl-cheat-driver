@@ -1,0 +1,13 @@
+﻿  Building 'driver' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(516,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  driver.cpp
+E:\! Saturn\Saturn FN\Saturn Free\v2.1\payson_drv\kernel mode\driver.cpp(285,44): warning C4996: 'ExAllocatePool': ExAllocatePool is deprecated, use ExAllocatePool2.
+E:\! Saturn\Saturn FN\Saturn Free\v2.1\payson_drv\kernel mode\driver.cpp(297,12): warning C4189: 'NonPaged': local variable is initialized but not referenced
+E:\! Saturn\Saturn FN\Saturn Free\v2.1\payson_drv\kernel mode\driver.cpp(296,11): warning C4189: 'SizeInBytes': local variable is initialized but not referenced
+E:\! Saturn\Saturn FN\Saturn Free\v2.1\payson_drv\kernel mode\driver.cpp(416,17): warning C4459: declaration of 'name' hides global declaration
+E:\! Saturn\Saturn FN\Saturn Free\v2.1\payson_drv\kernel mode\driver.cpp(416,23): warning C4459: declaration of 'link' hides global declaration
+  driver.vcxproj -> E:\! Saturn\Saturn FN\Saturn Free\v2.1\payson_drv\build\driver\driver.sys
+  Driver is 'Universal'.
+  Inf2Cat task was skipped as there were no inf files to process
+  

@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "usermode", "usermode\usermode.vcxproj", "{5AE5C5EE-3B21-4181-A223-7D4BC972810A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "driver", "kernel mode\driver.vcxproj", "{2BC9C890-EE95-4219-AC58-872DDB9D7F5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AE5C5EE-3B21-4181-A223-7D4BC972810A}.Release|x64.ActiveCfg = Release|x64
+		{5AE5C5EE-3B21-4181-A223-7D4BC972810A}.Release|x64.Build.0 = Release|x64
+		{2BC9C890-EE95-4219-AC58-872DDB9D7F5E}.Release|x64.ActiveCfg = Release|x64
+		{2BC9C890-EE95-4219-AC58-872DDB9D7F5E}.Release|x64.Build.0 = Release|x64
+		{2BC9C890-EE95-4219-AC58-872DDB9D7F5E}.Release|x64.Deploy.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C78FBF5D-D011-4909-88E4-5DDC0066DA2F}
+	EndGlobalSection
+EndGlobal
